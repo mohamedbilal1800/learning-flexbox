@@ -1,0 +1,231 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    max-width: 1440px;
+    background-color : white; 
+    margin: 0 auto;
+    padding: 10cm;
+    font-family: "Hanken Grotesk";
+}
+
+button{
+    width: 7cm;
+    height: 1.4cm;
+    padding: 0.8rem;
+    font-family: inherit;
+    font-size: 15px;
+    color: azure;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    background-color:hsl(224, 30%, 27%);
+}
+
+button:hover{
+    cursor: pointer;
+    border: 2px solid rgb(158, 158, 158);
+    background-color:blueviolet;
+}
+
+h1{
+    font-family: "Hanken Grotesk";
+    font-weight: 800;
+    font-size: 30px;
+}
+
+p{
+    font-family: "Hanken Grotesk";
+    font-size:15px;
+    font-weight: 500;
+    color:hsl(241, 100%, 89%)
+}
+
+.box {
+  color:white;
+  font-size: 100px;
+  text-align: center;
+  padding:1px;
+
+}
+
+.box1 { 
+    background-image: linear-gradient(180deg,  hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+    padding: 1cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 22px;
+}
+
+.box1_76{
+    font-family: "Hanken Grotesk";
+    font-weight: 800;
+    font-size: 75px;
+}
+
+.box1_of{
+    font-family: "Hanken Grotesk";
+    font-weight: 500;
+    font-size: 15px;
+    color:hsl(241, 100%, 89%)
+}
+
+.box1_h{
+    font-family: "Hanken Grotesk";
+    font-weight: 500;
+    font-size: 20px;
+    color:hsl(241, 100%, 89%)
+}
+
+.box1_g{
+    font-family: "Hanken Grotesk";
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.circle{
+    height: 5cm;
+    width: 5cm;
+    background-image: linear-gradient(180deg,  hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    align-content: flex-end;
+   
+}
+
+.box2 { 
+    background:white;
+    border-radius: 25px;
+    padding: 1cm;
+    padding-left: 1.3cm;
+    padding-right: 1.3cm;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 33px;
+    
+}
+
+.sum_h{
+    font-family: "Hanken Grotesk";
+    font-weight: 500;
+    font-size: 20px;
+    color: hsl(224, 30%, 27%);
+    align-self:flex-start;
+}
+
+.summary_items{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    align-content: flex-end;
+    row-gap: 15px;
+}
+
+.item1{
+    width: 6.3cm;
+    height: 0.8cm;
+    padding: 0.8rem;
+    background-color: rgb(255, 202, 202);
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    align-content: flex-start;
+}
+
+.word1{
+    font-family: "Hanken Grotesk";
+    font-size:15px;
+    font-weight: 500;
+    color: hsl(0, 100%, 67%);
+}
+
+.item2{
+    width: 6.3cm;
+    height: 0.8cm;
+    padding: 0.8rem;
+    background-color: hsl(39, 66%, 84%);
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    align-content: flex-start;
+}
+
+.word2{
+    font-family: "Hanken Grotesk";
+    font-size:15px;
+    font-weight: 500;
+    color: hsl(39, 100%, 56%);
+}
+
+.item3{
+    width: 6.3cm;
+    height: 0.8cm;
+    padding: 0.8rem;
+    background-color:hsl(166, 75%, 73%);
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    align-content: flex-start;
+
+}
+
+.word3{
+    font-family: "Hanken Grotesk";
+    font-size:15px;
+    font-weight: 500;
+    color: hsl(166, 100%, 37%);
+}
+
+.item4{
+    width: 6.3cm;
+    height: 0.8cm;
+    padding: 0.8rem;
+    background-color: hsla(235, 81%, 81%, 0.963);
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    align-content: flex-start;
+   
+}
+
+.word4{
+    font-family: "Hanken Grotesk";
+    font-size:15px;
+    font-weight: 500;
+    color: hsl(234, 85%, 45%);
+}
+
+.number{font-family: "Hanken Grotesk";
+    font-size:15px;
+    font-weight: 500;
+    color: hsl(224, 30%, 27%);
+
+}
+.container {
+  display:flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
