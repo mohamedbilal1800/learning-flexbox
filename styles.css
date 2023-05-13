@@ -6,8 +6,8 @@ body{
     height: 100vh;
     max-width: 1440px;
     background-color : white; 
-    margin: 0 auto;
     padding: 10cm;
+    margin: 0 auto;
     font-family: "Hanken Grotesk";
 }
 
@@ -41,13 +41,13 @@ p{
     font-family: "Hanken Grotesk";
     font-size:15px;
     font-weight: 500;
-    color:hsl(241, 100%, 89%)
+    color:hsl(241, 100%, 89%);
 }
 
 .container {
     display:flex;
-    align-content: space-around;
-    justify-content: space-around;
+    align-content: center;
+    justify-content: center;
     background-color: white;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -58,6 +58,7 @@ p{
   font-size: 100px;
   text-align: center;
   padding:1px;
+  display: flex;
 
 }
 
@@ -71,7 +72,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     row-gap: 22px;
 }
 
@@ -102,8 +103,8 @@ p{
 }
 
 .circle{
-    height: 5cm;
-    width: 5cm;
+    height: 12rem;
+    width: 12rem;
     background-image: linear-gradient(180deg,  hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
     display: flex;
@@ -115,7 +116,7 @@ p{
 }
 
 .box2 { 
-    background:white;
+    background-color: white;
     border-radius: 25px;
     padding: 1cm;
     padding-left: 1.3cm;
@@ -125,8 +126,7 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    row-gap: 33px;
-    
+    row-gap: 33px;    
 }
 
 .sum_h{
@@ -147,7 +147,7 @@ p{
 }
 
 .item1{
-    width: 6.3cm;
+    width: 6cm;
     height: 0.8cm;
     padding: 0.8rem;
     background-color: rgb(255, 202, 202);
@@ -229,6 +229,45 @@ p{
     font-weight: 500;
     color: hsl(224, 30%, 27%);
 
+}
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      width: 100%;    
+      box-shadow: none; 
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px; 
+    }
+
+    .box1{
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+    }
+
+    .box2{
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px; 
+      
+      padding: 0cm;
+      padding-left: 0cm;
+      padding-right: 0cm;
+    }
+
+    .body{
+        margin: 0 auto;
+        padding: 5rem;
+    }
+
+    .sum_h{
+        align-self:center;
+
+    }
+
+    
 }
 
 
